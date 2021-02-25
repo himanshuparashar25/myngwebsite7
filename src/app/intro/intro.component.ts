@@ -8,7 +8,12 @@ import { ConfigService } from '../config.service';
 })
 export class IntroComponent implements OnInit {
 
-  intro = { };
+  intro ={ 
+    tagline:'',
+    title: "",
+    description: '',
+    features:[]
+  };
 
  
 

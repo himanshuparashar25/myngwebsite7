@@ -8,7 +8,9 @@ import { ConfigService } from '../config.service';
 })
 export class GalleryComponent implements OnInit {
 
-  gallery = { };
+  gallery = {
+    images:[]
+   };
 
   constructor(private config: ConfigService) { }
 

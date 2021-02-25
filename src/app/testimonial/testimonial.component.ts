@@ -8,7 +8,11 @@ import { ConfigService } from '../config.service';
 })
 export class TestimonialComponent implements OnInit {
 
-  testimonials = {};
+  testimonials = {
+    tagline:'',
+    title:'',
+    feedbacks:[]
+  };
 
   constructor(private config: ConfigService) { }
 

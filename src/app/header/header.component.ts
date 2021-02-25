@@ -8,7 +8,12 @@ import { ConfigService } from '../config.service';
 })
 export class HeaderComponent implements OnInit {
 
-  header = { };
+  header ={ 
+    heading:'',
+    headingtext: "",
+    buttontext: '',
+    buttonlink: ''
+  };
 
   constructor(private config: ConfigService) { }
 

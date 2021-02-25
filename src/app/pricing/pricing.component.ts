@@ -8,8 +8,12 @@ import { ConfigService } from '../config.service';
 })
 export class PricingComponent implements OnInit {
 
-  pricing = { }; 
-
+  pricing = {
+    title:'',
+    plans:[],
+    tagline:''
+   }; 
+  
   constructor(private config: ConfigService) { }
 
   ngOnInit(): void {
