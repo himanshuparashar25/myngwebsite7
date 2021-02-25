@@ -12,7 +12,15 @@ export class ContentComponent implements OnInit {
     tagline:'',
     title:'',
     description:'',
-    
+    utilityPara1:'',
+    utilityPara2:'',
+    utilityImage:'',
+    videoTitle:'',
+    videoIcon:'',
+    videoLink:'',
+    customersReview:'',
+    customersName:'',
+    customersMood:''
   };
 
   constructor(private config: ConfigService) { }
