@@ -8,10 +8,12 @@ import { ConfigService } from '../config.service';
 })
 export class ClientsComponent implements OnInit {
 
-  clients = { };
-  title: any;
-  tagline:any;
-  description:any;
+  clients = {
+    title:'',
+    tagline:'',
+    description:'',
+    companies:[]
+   };
 
   constructor(private config: ConfigService) { }
 

@@ -55,17 +55,17 @@ export const configuration = {
         title : 'We Have The Right Package For You',
         description : '',
         plans:[
-            {title:'PERSONAL',subtitle:'The standard version', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'19', currency:'$', features:[
-                '5 Downloads', '2 Extensions', 'Tutorials', 'Forum Support', '1 year free updates'],
-            buttonlink:'', buttontext:'BUY TODAY', featured: true 
+            {title:'PERSONAL',subtitle:'The standard version', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'19', currency:'$',
+                downloads:'5 Downloads', extensions:'2 Extensions', tutorials:'Tutorials', support:'Forum Support', updates:'1 year free updates',
+            buttonlink:'#', buttontext:'BUY TODAY', featured: true 
             },
-            {title:'STUDENT',subtitle:'Most popular choice', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'29', currency:'$', features:[
-                '15 Downloads', '5 Extensions', 'Tutorials with Files', 'Forum Support', '2 year free updates'],
-            buttonlink:'', buttontext:'BUY TODAY', featured: true 
+            {title:'STUDENT',subtitle:'Most popular choice', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'29', currency:'$',
+                downloads: '15 Downloads', extensions:'5 Extensions', tutorials:'Tutorials with Files', support:'Forum Support', updates:'2 year free updates',
+            buttonlink:'#', buttontext:'BUY TODAY', featured: true 
             },
-            {title:'BUSINESS',subtitle:'For the whole team', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'49', currency:'$', features:[
-                'Unlimited Downloads', 'Unlimited Extensions', 'HD Video Tutorials', 'Chat Support', 'Lifetime free updates'],
-            buttonlink:'', buttontext:'BUY TODAY', featured: true 
+            {title:'BUSINESS',subtitle:'For the whole team', description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price:'49', currency:'$',
+                downloads:'Unlimited Downloads', extensions:'Unlimited Extensions', tutorials:'HD Video Tutorials', support:'Chat Support', updates:'Lifetime free updates',
+            buttonlink:'#', buttontext:'BUY TODAY', featured: true 
             }
         ]
     },
@@ -81,6 +81,19 @@ export const configuration = {
             'gallery-image-2.jpg',
             'gallery-image-3.jpg',
         ]
-    }
+    },
+    footer:{
+        active: true,
+        copyrightText: 'Made with love by ShapingRain',
+        developer:'Aashu',
+        developerLink:'www.google.com'
+    },
+    socialsites:[
+        {target:'_blank', title:'Facebook', link:'https://www.facebook.com', username:'Aashu', icon:'facebook'},
+        {target:'_blank', title:'Google+', link:'https://www.google.com', username:'Aashu', icon:'google-plus'},
+        {target:'_blank', title:'Twitter', link:'https://www.twitter.com', username:'Aashu', icon:'twitter'},
+        {target:'_blank', title:'Instagram', link:'https://www.instagram.com', username:'Aashu', icon:'instagram'},
+        {target:'_blank', title:'Behance', link:'http://www.behance.net', username:'Aashu', icon:'behance'}
+    ]
 }
     
